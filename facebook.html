@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Facebook Clone</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <section class="headerSection">DFA Learn HTML/CSS</section>
+      <form class="headerSection">
+        <section>
+          <input type="text" placeholder="Enter email..." id="email" />
+          <input type="text" placeholder="Enter password..." id="password" />
+          <button type="button" id="login">Login</button>
+        </section>
+      </form>
+    </header>
+    <main>
+      <section id="left">
+        <p>
+          Facebook helps you to connect and share with<br />
+          the people in your life.
+        </p>
+        <img
+          src="./peopleNetwork.png"
+          alt="Error showing image"
+          width="780px"
+          height="422px"
+        />
+      </section>
+      <section id="right">
+        <h1>Create an account</h1>
+        <h2>It's free and always will be</h2>
+        <section>
+          <input type="text" placeholder="First name" class="personalInfo" />
+          <input
+            type="text"
+            placeholder="Last name"
+            class="personalInfo"
+          /><br />
+          <input
+            type="text"
+            placeholder="Mobile number or Email"
+            class="personalInfo"
+            id="personalInfo2"
+          /><br />
+          <input
+            type="text"
+            placeholder="New password"
+            class="personalInfo"
+            id="personalInfo2"
+          />
+        </section>
+
+        <section>
+          <h3>Birthday</h3>
+          <select name="day" class="bday" id="day">
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+          <select name="month" class="bday" id="month">
+            <option value="Jan">Jan</option>
+            <option value="Feb">Feb</option>
+          </select>
+          <select name="year" class="bday" id="year">
+            <option value="2000">2004</option>
+            <option value="2001">2001</option>
+          </select>
+        </section>
+        <section id="gender">
+          <input type="radio" /> Female <input type="radio" /> Male
+        </section>
+        <p id="terms">
+          By clicking Sign Up, you agree to our Terms, Data Policy and Cookie
+          <br />
+          Policy. You may receive SMS notifications from us and can opt out
+          at<br />
+          any time.
+        </p>
+        <button type="button" id="signUp">Sign Up</button>
+      </section>
+    </main>
+  </body>
+</html>
